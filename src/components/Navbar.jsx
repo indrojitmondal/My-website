@@ -27,7 +27,7 @@ const Navbar = () => {
           {/* Right Section: Navigation for Desktop */}
           <div
             id="pc-nav-right-container"
-            className="hidden md:flex md:justify-around gap-7 text-[15px]"
+            className="hidden lg:flex lg:justify-around gap-7 text-[15px]"
           >
             
             <NavLink
@@ -121,13 +121,7 @@ const Navbar = () => {
            
           </div>
 
-          {/* Hamburger Menu for Mobile */}
-          {/* <div className="ml-2 md:hidden">
-            <div className="btn btn-ghost border-1 lg:hidden lg:bg-primary text-lg">
-              <i className="fa-solid fa-bars text-primary" id="bar"></i>
-              <i className="fa-solid fa-x text-primary hidden" id="cross"></i>
-            </div>
-          </div> */}
+          
          
         </div>
       <div onClick={handleMenuBar} className=" lg:hidden">
@@ -148,7 +142,7 @@ const Navbar = () => {
 
             {/* {links} */}
 
-            <div className='flex flex-col md:flex-row items-center text-lg gap-5'>
+            <div className='flex flex-col  items-center text-lg gap-5'>
               <NavLink to={'/'}   className={({ isActive }) => (isActive ? "text-primary" : "")}>Home</NavLink>
               <NavLink to={'/about'} className={({isActive})=>(isActive?'text-primary':"")}>About Me</NavLink>
               <NavLink to={'/projects'} className={({isActive})=>(isActive?'text-primary':"")}>Projects</NavLink>

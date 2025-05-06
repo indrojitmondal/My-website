@@ -1,0 +1,139 @@
+[
+    {
+      "title": "SUN@JIT(Responsive Website)",
+      "subtitle": "Game Review Application",
+      "img": "https://i.ibb.co.com/R4V7VkTC/11.png",
+      "stack": [
+        "MongoDB [22.5%]",
+        "ExpressJS [12.5%]",
+        "ReactJS [35.7%]",
+        "NodeJS [13.7%]",
+        "Firebase [15.6%]"
+      ],
+      "links": [
+        {
+          "label": "ClientSide",
+          "icon": "fa-code",
+          "url": "https://github.com/indrojitmondal/SUN-JIT-Client"
+        },
+        {
+          "label": "ServerSide",
+          "icon": "fa-code",
+          "url": "https://github.com/indrojitmondal/SUN-JIT-Server"
+        },
+        {
+          "label": "LiveSite",
+          "icon": "fa-globe",
+          "url": "https://sunjit-98781.web.app/"
+        }
+      ]
+    },
+    {
+      "title": "PAIKGACA(Responsive Website)",
+      "subtitle": "Coupon Collection Application",
+      "img": "https://i.ibb.co.com/r2QMd4Gq/10.png",
+      "stack": [
+        "HTML+TailwindCSS [5.5%]",
+        "ReactJS [93.2%]",
+        "Firebase [1.3%]"
+      ],
+      "links": [
+        {
+          "label": "Details",
+          "icon": "fa-code",
+          "url": "https://github.com/indrojitmondal/PAIKGACA"
+        },
+        {
+          "label": "LiveSite",
+          "icon": "fa-globe",
+          "url": "https://paikgacha-336df.web.app/"
+        }
+      ]
+    },
+    {
+      "title": "Gadget Heaven",
+      "subtitle": "E-commerce site",
+      "img": "https://i.ibb.co.com/DH03pXPq/12.png",
+      "stack": [
+        "HTML+TailwindCSS [5.7%]",
+        "ReactJS [94.3%]"
+      ],
+      "links": [
+        {
+          "label": "Details",
+          "icon": "fa-code",
+          "url": "https://github.com/indrojitmondal/Gadget-Heaven"
+        },
+        {
+          "label": "LiveSite",
+          "icon": "fa-globe",
+          "url": "https://b10a8-gadget-heaven-indrojitmondal.surge.sh/"
+        }
+      ]
+    },
+    {
+      "title": "Paikgachadotcom",
+      "subtitle": "E-commerce site",
+      "img": "https://i.ibb.co.com/v62tBwSn/9.png",
+      "stack": [
+        "HTML+TailwindCSS [5.7%]",
+        "ReactJS [93.2%]",
+        "Firebase [1.1%]"
+      ],
+      "links": [
+        {
+          "label": "Details",
+          "icon": "fa-code",
+          "url": "https://github.com/indrojitmondal/Paikgacha2world"
+        },
+        {
+          "label": "LiveSite",
+          "icon": "fa-globe",
+          "url": "https://paikgachadotcom-b9d74.web.app/"
+        }
+      ]
+    },
+    {
+      "title": "Dream11 Cricket Team(Responsive Website)",
+      "subtitle": "E-commerce site",
+      "img": "https://i.ibb.co.com/Jwv6g9P1/8.png",
+      "stack": [
+        "HTML+TailwindCSS [5.7%]",
+        "ReactJS [93.3%]"
+      ],
+      "links": [
+        {
+          "label": "Details",
+          "icon": "fa-code",
+          "url": "https://github.com/indrojitmondal/Dream11-Cricket-Team"
+        },
+        {
+          "label": "LiveSite",
+          "icon": "fa-globe",
+          "url": "https://dream11-cricketteammaker.surge.sh/"
+        }
+      ]
+    },
+    {
+      "title": "BCS Question BANK(Responsive Website)",
+      "subtitle": "Tutorial Site",
+      "img": "https://i.ibb.co.com/pjBK6ktJ/13.png",
+      "stack": [
+        "HTML+TailwindCSS [5.7%]",
+        "ReactJS [93.3%]"
+      ],
+      "links": [
+        {
+          "label": "Details",
+          "icon": "fa-code",
+          "url": "https://github.com/indrojitmondal/BCS-Question-Bank"
+        },
+        {
+          "label": "LiveSite",
+          "icon": "fa-globe",
+          "url": "https://bcs-question-bank.vercel.app/"
+        }
+      ]
+    }
+  ]
+  
