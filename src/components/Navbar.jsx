@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../css/styles.css'
 import { Link, NavLink } from 'react-router-dom';
+import { IoMdMenu } from "react-icons/io";
+import { RxCross1 } from "react-icons/rx";
 const Navbar = () => {
+  const [menu, setMenu] = useState(false);
+  const handleMenuBar = () => {
+
+    setMenu(!menu);
+  }
   return (
     <div className='font-roboto bg-about'>
-      <header className="sticky top-0 z-50 bg-about">
-        <div className="flex justify-between items-center w-11/12 lg:w-10/12 mx-auto pt-4 pb-4">
+      <header className="sticky flex items-center top-0 z-50 bg-about">
+        <div className="flex justify-between items-center w-10/12 lg:w-10/12 mx-auto pt-4 pb-4">
           {/* Left Section: Logo */}
           <div>
             <Link to={'/'}>
@@ -115,42 +122,47 @@ const Navbar = () => {
           </div>
 
           {/* Hamburger Menu for Mobile */}
-          <div className="ml-2 md:hidden">
+          {/* <div className="ml-2 md:hidden">
             <div className="btn btn-ghost border-1 lg:hidden lg:bg-primary text-lg">
               <i className="fa-solid fa-bars text-primary" id="bar"></i>
               <i className="fa-solid fa-x text-primary hidden" id="cross"></i>
             </div>
+          </div> */}
+         
+        </div>
+      <div onClick={handleMenuBar} className=" lg:hidden">
+          <div className="btn btn-ghost border-1 lg:hidden lg:bg-orange-400 text-lg">
+
+            <IoMdMenu className={` ${!menu? 'block text-primary': 'hidden'}  `} />
+            
+            <RxCross1 className={` ${menu? 'block text-primary': 'hidden'}  `} />
           </div>
         </div>
       </header>
+      <div className='lg:hidden'>
+        <section className={`${menu ? 'block ' : 'hidden'} `} >
+          <ul
+            id="menuDropdown"
+            className="   text-center space-y-4 w-full p-2 shadow text-base lg:flex lg:flex-col gap-5"
+          >
 
-      {/* Mobile Menu Dropdown */}
-      <section className="w-11/12 lg:w-10/12 mx-auto md:hidden">
-        <ul
-          id="menuDropdown"
-          className="hidden bg-white fixed z-[50] text-center space-y-4 w-full p-2 shadow text-base lg:flex lg:flex-col gap-5"
-        >
-          <li className="text-primary transition-colors ease-in-out duration-300">
-            <a href="index.html">Home</a>
-          </li>
-          <li className="hover:text-primary transition-colors ease-in-out duration-300">
-            <a href="about.html">About</a>
-          </li>
-          <li className="hover:text-primary transition-colors ease-in-out duration-300">
-            <a href="projects.html">Projects</a>
-          </li>
-          <li className="hover:text-primary transition-colors ease-in-out duration-300">
-            <a href="services.html">Services</a>
-          </li>
-          <li className="hover:text-primary transition-colors ease-in-out duration-300">
-            <a href="blogs.html">Blogs</a>
-          </li>
-          <li className="hover:text-primary transition-colors ease-in-out duration-300">
-            <a href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </section>
+            {/* {links} */}
+
+            <div className='flex flex-col md:flex-row items-center text-lg gap-5'>
+              <NavLink to={'/'}   className={({ isActive }) => (isActive ? "text-primary" : "")}>Home</NavLink>
+              <NavLink to={'/about'} className={({isActive})=>(isActive?'text-primary':"")}>About Me</NavLink>
+              <NavLink to={'/projects'} className={({isActive})=>(isActive?'text-primary':"")}>Projects</NavLink>
+              <NavLink to={'/services'} className={({isActive})=>(isActive?'text-primary':"")}>Services</NavLink>
+              <NavLink to={'/blogs'} className={({isActive})=>(isActive?'text-primary':"")}>Blogs</NavLink>
+              <NavLink to={'/contact'}className={({isActive})=>(isActive?'text-primary':"")}>Contact Me</NavLink>
+         
+            </div>
+
+          </ul>
+        </section>
+      </div>
     </div>
+     
   );
 };
 
