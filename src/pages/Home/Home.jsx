@@ -6,7 +6,7 @@ import MyRecentProjects from './MyRecentProjects';
 
 const Home = () => {
     return (
-        <div>
+        <div className="min-h-screen" >
               <Banner></Banner>
               <TechnologiesIWorkWith></TechnologiesIWorkWith>
               <WhatIWorkOn></WhatIWorkOn>
