@@ -11,7 +11,7 @@ const Navbar = () => {
   }
   return (
     <div className='font-roboto bg-about'>
-      <header className="sticky flex items-center top-0 z-50 bg-about">
+      <nav className="sticky top-0 z-50 bg-about">
         <div className="flex justify-between items-center w-10/12 lg:w-10/12 mx-auto pt-4 pb-4">
           {/* Left Section: Logo */}
           <div>
@@ -120,11 +120,8 @@ const Navbar = () => {
             
            
           </div>
-
-          
-         
-        </div>
-      <div onClick={handleMenuBar} className=" lg:hidden">
+          {/* Mobile Responsive menu */}
+          <div onClick={handleMenuBar} className=" lg:hidden">
           <div className="btn btn-ghost border-1 lg:hidden lg:bg-orange-400 text-lg">
 
             <IoMdMenu className={` ${!menu? 'block text-primary': 'hidden'}  `} />
@@ -132,7 +129,11 @@ const Navbar = () => {
             <RxCross1 className={` ${menu? 'block text-primary': 'hidden'}  `} />
           </div>
         </div>
-      </header>
+          
+         
+        </div>
+      
+      </nav>
       <div className='lg:hidden'>
         <section className={`${menu ? 'block ' : 'hidden'} `} >
           <ul
