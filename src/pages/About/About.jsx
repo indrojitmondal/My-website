@@ -7,7 +7,8 @@ import realLifeImage from '../../images/1713456677748.jpeg'
 import leetCodeImage from '../../images/leetcode.png'
 import codeforcesImage from '../../images/codeforces.png'
 import uvaImage from '../../images/uvaonline.jpeg'
-import Contact from '../../components/Contact';
+import HireMe from '../Home/HireMe';
+
 
 const About = () => {
 
@@ -372,7 +373,8 @@ const About = () => {
                     </div>
                 </div>
             </main>
-            <Contact></Contact>
+            
+            <HireMe></HireMe>
         </div>
     );
 };
