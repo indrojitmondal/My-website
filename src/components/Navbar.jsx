@@ -16,8 +16,11 @@ const Navbar = () => {
           {/* Logo */}
           <Link to={'/'}>
             <h3 className="text-primary text-[22px] md:text-[25px] font-extrabold tracking-wide flex items-center">
-              INDR<span className="text-primary">O@</span>JIT
+              {/* INDR<span className="text-primary">O@</span>JIT */}
+              Digital Solution 24.0 
             </h3>
+            <br />
+            <span>_______Let's make the dream come true</span>
           </Link>
 
           {/* Desktop Nav */}
@@ -30,7 +33,7 @@ const Navbar = () => {
               >
                 {({ isActive }) => (
                   <>
-                    {["HOME", "ABOUT ME", "PROJECTS", "SERVICES", "BLOGS", "CONTACT ME"][i]}
+                    {["HOME", "ABOUT US", "PROJECTS", "SERVICES", "BLOGS", "CONTACT US"][i]}
                     {isActive && <span className="absolute left-0 bottom-0 w-full h-[2px] bg-primary"></span>}
                   </>
                 )}

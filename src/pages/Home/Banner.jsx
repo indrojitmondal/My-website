@@ -8,7 +8,8 @@ const Banner = () => {
                     <h1 className="font-bold pl-5 md:pl-0 text-center text-xl">
                         WELCOME TO{" "}
                         <span className="text-primary">
-                            INDR<span className="text-primary">O@</span>JIT
+                            {/* INDR<span className="text-primary">O@</span>JIT */}
+                        Digital Solution 24.0
                         </span>
                     </h1>
 

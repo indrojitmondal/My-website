@@ -23,4 +23,39 @@
     width: 100%; /* Expand width on hover */
 }
 
-/* Example for primary color variable */
+/* Existing styles in your styles.css */
+
+.react-tabs__tab--selected {
+    background: #fff !important;
+    border: 2px solid #0A9FDA !important;
+    color: #0A9FDA !important;
+    border-radius: 5px 5px 0 0 !important;
+    /* border-bottom: 1x solid #0A9FDA !important; */
+}
+  
+  /* Potentially other react-tabs styles you might want to customize */
+  .react-tabs__tab {
+    /* Add your styles for unselected tabs here */
+    border: 1px solid #0A9FDA;
+    margin-bottom: -1px;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .react-tabs__tab-list {
+    /* Style the tab list container */
+    border-bottom: 1px solid #ccc;
+    margin: 0 0 10px;
+    padding: 0;
+    display: flex;
+  }
+  
+  .react-tabs__tab-panel {
+    /* Style the tab panel content area */
+    display: none;
+  }
+  
+  .react-tabs__tab-panel--selected {
+    display: block;
+    padding: 10px;
+  }

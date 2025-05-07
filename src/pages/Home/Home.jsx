@@ -4,12 +4,14 @@ import TechnologiesIWorkWith from './TechnologiesIworkWith';
 import WhatIWorkOn from './WhatIWorkOn';
 import MyRecentProjects from './MyRecentProjects';
 import HireMe from './HireMe';
+import Sliders from './Sliders';
 
 
 const Home = () => {
     return (
         <div >
-              <Banner></Banner>
+              {/* <Banner></Banner> */}
+              <Sliders></Sliders>
               <TechnologiesIWorkWith></TechnologiesIWorkWith>
               <WhatIWorkOn></WhatIWorkOn>
               <MyRecentProjects></MyRecentProjects>
