@@ -134,6 +134,171 @@
           "url": "https://bcs-question-bank.vercel.app/"
         }
       ]
+    },
+    {
+      "title": "Peddy Adoption(Responsive Website)",
+      "subtitle": "E-commerce site",
+      "img": "https://i.ibb.co.com/zT4mqqTC/7.png",
+      "stack": [
+        "HTML+TailwindCSS [48.7%]",
+        "JavaScript [51.3%]"
+      ],
+      "links": [
+        {
+          "label": "Details",
+          "icon": "fa-code",
+          "url": "https://github.com/indrojitmondal/Peddy-Adoption"
+        },
+        {
+          "label": "LiveSite",
+          "icon": "fa-globe",
+          "url": "https://peddyadoption.netlify.app/"
+        }
+      ]
+    },
+    {
+      "title": "Donate Bangladesh(Responsive Website)",
+      "subtitle": "Donation Site",
+      "img": "https://i.ibb.co.com/bjTt1LZT/6.png",
+      "stack": [
+        "HTML+TailwindCSS [75.7%]",
+        "JavaScript [24.3%]"
+      ],
+      "links": [
+        {
+          "label": "Details",
+          "icon": "fa-code",
+          "url": "https://github.com/indrojitmondal/Donate-Bangladesh"
+        },
+        {
+          "label": "LiveSite",
+          "icon": "fa-globe",
+          "url": "https://indrojitmondal.github.io/Donate-Bangladesh/"
+        }
+      ]
+    },
+    {
+      "title": "Payoo-MFS(Responsive Website)",
+      "subtitle": "Mobile Banking",
+      "img": "https://i.ibb.co.com/0p09rKq7/5.png",
+      "stack": [
+        "HTML+TailwindCSS [60.8%",
+        "JavaScript [39.2%]"
+      ],
+      "links": [
+        {
+          "label": "Details",
+          "icon": "fa-code",
+          "url": "https://github.com/indrojitmondal/Payoo-MFS"
+        },
+        {
+          "label": "LiveSite",
+          "icon": "fa-globe",
+          "url": "https://indrojitmondal.github.io/Payoo-MFS/"
+        }
+      ]
+
+    },
+    {
+      "title": "Rinterio(Responsive Website)",
+      "subtitle": "E-commerce site",
+      "img": "https://i.ibb.co.com/HfV1psJL/4.png",
+      "stack": [
+        "HTML [44.4",
+        "TailwindCSS [55%]",
+        "JavaScript [.6%]"
+      ],
+      "links": [
+        {
+          "label": "Details",
+          "icon": "fa-code",
+          "url": "https://github.com/indrojitmondal/Rinterio"
+        },
+        {
+          "label": "LiveSite",
+          "icon": "fa-globe",
+          "url": "https://indrojitmondal.github.io/Rinterio/"
+        }
+      ]
+
+    },
+    {
+      "title": "Elevate English Academy(Responsive Website)",
+      "subtitle": "Educational Consultancy",
+      "img": "https://i.ibb.co.com/whTKFbbs/3.png",
+      "stack": [
+        "HTML [76]",
+        "CSS [19%]",
+        "JavaScript [5%]"
+      ],
+      "links": [
+        {
+          "label": "Details",
+          "icon": "fa-code",
+          "url": "https://github.com/indrojitmondal/Elevate-English-Academy"
+        },
+        {
+          "label": "LiveSite",
+          "icon": "fa-globe",
+          "url": "https://indrojitmondal.github.io/Elevate-English-Academy/"
+        }
+      ]
+
+    },
+    {
+      "title": "Hero Travel(Responsive Website)",
+      "subtitle": "Blog Site",
+      "img": "https://i.ibb.co.com/YFCZ97Z2/2.png",
+      "stack": [
+        "HTML [60.4%]",
+        "CSS [39.6%]"
+  
+      ],
+      "links": [
+        {
+          "label": "Details",
+          "icon": "fa-code",
+          "url": "https://github.com/indrojitmondal/Hero-Travel"
+        },
+        {
+          "label": "LiveSite",
+          "icon": "fa-globe",
+          "url": "https://indrojitmondal.github.io/Hero-Travel/"
+        }
+      ]
+
+    },
+    {
+      "title": "Fitness(Responsive Website)",
+      "subtitle": "Tutorial Site",
+      "img": "https://i.ibb.co.com/8DtH2Ksb/1.png",
+      "stack": [
+        "HTML [51.5%]",
+        "CSS [48.5%]"
+  
+      ],
+      "links": [
+        {
+          "label": "Details",
+          "icon": "fa-code",
+          "url": "https://github.com/indrojitmondal/Fitness"
+        },
+        {
+          "label": "LiveSite",
+          "icon": "fa-globe",
+          "url": "https://indrojitmondal.github.io/Fitness/"
+        }
+      ]
+
     }
+
+
+
+
+
+
+
+    
+    
   ]
   

@@ -41,7 +41,7 @@ const Navbar = () => {
           {/* Mobile Button */}
           <div onClick={handleMenuBar} className="lg:hidden cursor-pointer">
             <div className="btn btn-ghost border text-lg">
-              {!menu ? <IoMdMenu className="text-primary" /> : <RxCross1 className="text-primary" />}
+              {!menu ? <IoMdMenu className="text-primary text-xl" /> : <RxCross1 className="text-primary text-xl" />}
             </div>
           </div>
         </div>
