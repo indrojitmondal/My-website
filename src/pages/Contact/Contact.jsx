@@ -1,9 +1,13 @@
 import React from 'react';
 import contactImage from '../../icon/contactme.svg'
 import ContactMe from './ContactMe';
+import { Helmet } from 'react-helmet-async';
 const Contact = () => {
     return (
         <div>
+            <Helmet>
+              <title>Contact – Indrojit Mondal </title>
+              </Helmet>
             <section className="">
                 <div className="w-10/12 mx-auto text-center flex flex-col lg:flex-row gap-8 pt-9 lg:px-14 pb-9">
                     <img src={contactImage} className="block h-40" alt="Contact Icon" />

@@ -2,6 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import HireMe from '../Home/HireMe';
 import myBlogsImage from '../../images/myBlog.png'
+import { Helmet } from 'react-helmet-async';
 const Blogs = () => {
     const [blogs, setBlogs]=useState([]);
     useEffect(() => {
@@ -17,6 +18,9 @@ const Blogs = () => {
     return (
   
       <div>
+        <Helmet>
+              <title>Blogs – Indrojit Mondal </title>
+          </Helmet>
             <section className="">
         <div className="w-8/12 mx-auto text-center flex flex-col lg:flex-row gap-8 pt-9 pb-9">
           <img src={myBlogsImage} className="block h-40" alt="Blog" />

@@ -11,9 +11,13 @@ import MongoDBImage from '../../icon/mongodb.png'
 import FigmaImage from '../../icon/figma.png'
 import Group3Image from '../../icon/Group 3.png'
 import PixsoImage from '../../icon/pixso.jpeg'
+import { Helmet } from 'react-helmet-async';
 const Services = () => {
     return (
         <div>
+             <Helmet>
+              <title>Services – Indrojit Mondal </title>
+              </Helmet>
             <section className="">
                 <div className="w-11/12 md:w-10/12 mx-auto text-center flex flex-col lg:flex-row gap-8 pt-9 md:px-14 pb-9">
                     <img
