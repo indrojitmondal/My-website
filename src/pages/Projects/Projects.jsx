@@ -4,6 +4,13 @@ import myProjectImage from '../../icon/Group 4.png'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import '../../css/styles.css'
+import { Helmet } from 'react-helmet-async';
+import WebDevelopment from './WebDevelopment';
+import MobileAppDevelopment from './MobileAppDevelopment';
+import GameDevelopment from './GameDevelopment';
+import DataStructure from './DataStructure';
+import Algorithm from './Algorithm';
+import ALL from './ALL';
 const Projects = () => {
     
     const [webStatus, setWebStatus]=useState(false);
@@ -68,6 +75,9 @@ const Projects = () => {
 
     return (
         <div>
+            <Helmet>
+              <title>Projects – Indrojit Mondal </title>
+              </Helmet>
             <section className="bg-projects">
                 <div className="w-11/12 md:w-10/12 mx-auto grid md:grid-cols-2 pt-5 md:px-14">
                     <h1></h1>
@@ -99,6 +109,23 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+            { webStatus && <WebDevelopment></WebDevelopment>
+            }
+            {
+              mobileAppStatus && <MobileAppDevelopment></MobileAppDevelopment>
+            }
+            {
+                gameStatus && <GameDevelopment></GameDevelopment>
+            }
+            {
+                dsStatus && <DataStructure></DataStructure>
+            }
+            {
+                algorithmStatus && <Algorithm></Algorithm>
+            }
+            {
+                allStatus && <ALL></ALL>
+            }
 
 
             <HireMe></HireMe>

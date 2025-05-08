@@ -1,0 +1,382 @@
+[
+    {
+        "title": "SUN@JIT(Responsive Website)",
+        "subtitle": "Game Review Application",
+        "img": "https://i.ibb.co.com/R4V7VkTC/11.png",
+        "stack": [
+            "MongoDB [22.5%]",
+            "ExpressJS [12.5%]",
+            "ReactJS [35.7%]",
+            "NodeJS [13.7%]",
+            "Firebase [15.6%]"
+        ],
+        "links": [
+            {
+                "label": "ClientSide",
+                "icon": "fa-code",
+                "url": "https://github.com/indrojitmondal/SUN-JIT-Client"
+            },
+            {
+                "label": "ServerSide",
+                "icon": "fa-code",
+                "url": "https://github.com/indrojitmondal/SUN-JIT-Server"
+            },
+            {
+                "label": "LiveSite",
+                "icon": "fa-globe",
+                "url": "https://sunjit-98781.web.app/"
+            }
+        ]
+    },
+    {
+        "title": "PAIKGACA(Responsive Website)",
+        "subtitle": "Coupon Collection Application",
+        "img": "https://i.ibb.co.com/r2QMd4Gq/10.png",
+        "stack": [
+            "HTML+TailwindCSS [5.5%]",
+            "ReactJS [93.2%]",
+            "Firebase [1.3%]"
+        ],
+        "links": [
+            {
+                "label": "Details",
+                "icon": "fa-code",
+                "url": "https://github.com/indrojitmondal/PAIKGACA"
+            },
+            {
+                "label": "LiveSite",
+                "icon": "fa-globe",
+                "url": "https://paikgacha-336df.web.app/"
+            }
+        ]
+    },
+    {
+        "title": "Gadget Heaven",
+        "subtitle": "E-commerce site",
+        "img": "https://i.ibb.co.com/DH03pXPq/12.png",
+        "stack": [
+            "HTML+TailwindCSS [5.7%]",
+            "ReactJS [94.3%]"
+        ],
+        "links": [
+            {
+                "label": "Details",
+                "icon": "fa-code",
+                "url": "https://github.com/indrojitmondal/Gadget-Heaven"
+            },
+            {
+                "label": "LiveSite",
+                "icon": "fa-globe",
+                "url": "https://b10a8-gadget-heaven-indrojitmondal.surge.sh/"
+            }
+        ]
+    },
+    {
+        "title": "Paikgachadotcom",
+        "subtitle": "E-commerce site",
+        "img": "https://i.ibb.co.com/v62tBwSn/9.png",
+        "stack": [
+            "HTML+TailwindCSS [5.7%]",
+            "ReactJS [93.2%]",
+            "Firebase [1.1%]"
+        ],
+        "links": [
+            {
+                "label": "Details",
+                "icon": "fa-code",
+                "url": "https://github.com/indrojitmondal/Paikgacha2world"
+            },
+            {
+                "label": "LiveSite",
+                "icon": "fa-globe",
+                "url": "https://paikgachadotcom-b9d74.web.app/"
+            }
+        ]
+    },
+    {
+        "title": "Dream11 Cricket Team(Responsive Website)",
+        "subtitle": "E-commerce site",
+        "img": "https://i.ibb.co.com/Jwv6g9P1/8.png",
+        "stack": [
+            "HTML+TailwindCSS [5.7%]",
+            "ReactJS [93.3%]"
+        ],
+        "links": [
+            {
+                "label": "Details",
+                "icon": "fa-code",
+                "url": "https://github.com/indrojitmondal/Dream11-Cricket-Team"
+            },
+            {
+                "label": "LiveSite",
+                "icon": "fa-globe",
+                "url": "https://dream11-cricketteammaker.surge.sh/"
+            }
+        ]
+    },
+    {
+        "title": "BCS Question BANK(Responsive Website)",
+        "subtitle": "Tutorial Site",
+        "img": "https://i.ibb.co.com/pjBK6ktJ/13.png",
+        "stack": [
+            "HTML+TailwindCSS [5.7%]",
+            "ReactJS [93.3%]"
+        ],
+        "links": [
+            {
+                "label": "Details",
+                "icon": "fa-code",
+                "url": "https://github.com/indrojitmondal/BCS-Question-Bank"
+            },
+            {
+                "label": "LiveSite",
+                "icon": "fa-globe",
+                "url": "https://bcs-question-bank.vercel.app/"
+            }
+        ]
+    },
+    {
+        "title": "Peddy Adoption(Responsive Website)",
+        "subtitle": "E-commerce site",
+        "img": "https://i.ibb.co.com/zT4mqqTC/7.png",
+        "stack": [
+            "HTML+TailwindCSS [48.7%]",
+            "JavaScript [51.3%]"
+        ],
+        "links": [
+            {
+                "label": "Details",
+                "icon": "fa-code",
+                "url": "https://github.com/indrojitmondal/Peddy-Adoption"
+            },
+            {
+                "label": "LiveSite",
+                "icon": "fa-globe",
+                "url": "https://peddyadoption.netlify.app/"
+            }
+        ]
+    },
+    {
+        "title": "Donate Bangladesh(Responsive Website)",
+        "subtitle": "Donation Site",
+        "img": "https://i.ibb.co.com/bjTt1LZT/6.png",
+        "stack": [
+            "HTML+TailwindCSS [75.7%]",
+            "JavaScript [24.3%]"
+        ],
+        "links": [
+            {
+                "label": "Details",
+                "icon": "fa-code",
+                "url": "https://github.com/indrojitmondal/Donate-Bangladesh"
+            },
+            {
+                "label": "LiveSite",
+                "icon": "fa-globe",
+                "url": "https://indrojitmondal.github.io/Donate-Bangladesh/"
+            }
+        ]
+    },
+    {
+        "title": "Payoo-MFS(Responsive Website)",
+        "subtitle": "Mobile Banking",
+        "img": "https://i.ibb.co.com/0p09rKq7/5.png",
+        "stack": [
+            "HTML+TailwindCSS [60.8%",
+            "JavaScript [39.2%]"
+        ],
+        "links": [
+            {
+                "label": "Details",
+                "icon": "fa-code",
+                "url": "https://github.com/indrojitmondal/Payoo-MFS"
+            },
+            {
+                "label": "LiveSite",
+                "icon": "fa-globe",
+                "url": "https://indrojitmondal.github.io/Payoo-MFS/"
+            }
+        ]
+    },
+    {
+        "title": "Rinterio(Responsive Website)",
+        "subtitle": "E-commerce site",
+        "img": "https://i.ibb.co.com/HfV1psJL/4.png",
+        "stack": [
+            "HTML [44.4",
+            "TailwindCSS [55%]",
+            "JavaScript [.6%]"
+        ],
+        "links": [
+            {
+                "label": "Details",
+                "icon": "fa-code",
+                "url": "https://github.com/indrojitmondal/Rinterio"
+            },
+            {
+                "label": "LiveSite",
+                "icon": "fa-globe",
+                "url": "https://indrojitmondal.github.io/Rinterio/"
+            }
+        ]
+    },
+    {
+        "title": "Elevate English Academy(Responsive Website)",
+        "subtitle": "Educational Consultancy",
+        "img": "https://i.ibb.co.com/whTKFbbs/3.png",
+        "stack": [
+            "HTML [76]",
+            "CSS [19%]",
+            "JavaScript [5%]"
+        ],
+        "links": [
+            {
+                "label": "Details",
+                "icon": "fa-code",
+                "url": "https://github.com/indrojitmondal/Elevate-English-Academy"
+            },
+            {
+                "label": "LiveSite",
+                "icon": "fa-globe",
+                "url": "https://indrojitmondal.github.io/Elevate-English-Academy/"
+            }
+        ]
+    },
+    {
+        "title": "Hero Travel(Responsive Website)",
+        "subtitle": "Blog Site",
+        "img": "https://i.ibb.co.com/YFCZ97Z2/2.png",
+        "stack": [
+            "HTML [60.4%]",
+            "CSS [39.6%]"
+        ],
+        "links": [
+            {
+                "label": "Details",
+                "icon": "fa-code",
+                "url": "https://github.com/indrojitmondal/Hero-Travel"
+            },
+            {
+                "label": "LiveSite",
+                "icon": "fa-globe",
+                "url": "https://indrojitmondal.github.io/Hero-Travel/"
+            }
+        ]
+    },
+    {
+        "title": "Fitness(Responsive Website)",
+        "subtitle": "Tutorial Site",
+        "img": "https://i.ibb.co.com/8DtH2Ksb/1.png",
+        "stack": [
+            "HTML [51.5%]",
+            "CSS [48.5%]"
+        ],
+        "links": [
+            {
+                "label": "Details",
+                "icon": "fa-code",
+                "url": "https://github.com/indrojitmondal/Fitness"
+            },
+            {
+                "label": "LiveSite",
+                "icon": "fa-globe",
+                "url": "https://indrojitmondal.github.io/Fitness/"
+            }
+        ]
+    },
+    {
+        "title": "BU Digital Calendar",
+        "subtitle": "Android Development",
+        "img": "https://i.ibb.co.com/0VYYqKgH/bucalendar.png",
+        "stack": [
+            "Java [100%]",
+            "Android"
+        ],
+        "links": [
+            {
+                "label": "Details",
+                "icon": "fa-code",
+                "url": "https://github.com/indrojitmondal/BarishalUniversityCalender"
+            },
+            {
+                "label": "Play",
+                "icon": "fa-code",
+                "url": "https://appetize.io/app/b_ngxvcemjkmnldckat667afoyme"
+            }
+        ]
+    },
+    {
+        "title": "Tourist Spot in Bangladesh",
+        "subtitle": "Android Development",
+        "img": "https://i.ibb.co.com/LXQpvX4k/tousitspot.png",
+        "stack": [
+            "Java [100%]",
+            "Android"
+        ],
+        "links": [
+            {
+                "label": "APK",
+                "icon": "fa-code",
+                "url": "https://drive.google.com/file/d/1r99Nn89APM4h21EK6ZJVB2JQJBB8GDqx/view"
+            },
+            {
+                "label": "Play",
+                "icon": "fa-code",
+                "url": "https://appetize.io/app/b_meuss4l2t7bgxxhsmffhjewdyy"
+            }
+        ]
+    },
+    {
+        "title": "Snake Ludo",
+        "subtitle": "Desktop Gaming Application",
+        "img": "https://i.ibb.co.com/Vcc1LDBk/1.png",
+        "stack": [
+            "Java [90%]",
+            "JDK [10%]"
+        ],
+        "links": [
+            {
+                "label": "Code",
+                "icon": "fa-code",
+                "url": "https://github.com/indrojitmondal/Snake-Ludo-Update-2020-new"
+            },
+            {
+                "label": "Exe File",
+                "icon": "fa-download",
+                "url": "https://drive.google.com/file/d/1qvkiW8FoHjQdj4FReUpkuFNpl0MiAgCR/view"
+            }
+        ]
+    },
+    {
+        "title": "Uva10945 - Mother bear",
+        "subtitle": "Problem Solving",
+        "img": "https://i.ibb.co.com/60wLmXnC/1.png",
+        "stack": [
+            "C++",
+            "Array"
+        ],
+        "links": [
+            {
+                "label": "Code",
+                "icon": "fa-code",
+                "url": "https://github.com/indrojitmondal/Punction-Char-array"
+            }
+        ]
+    },
+    {
+        "title": "Floyd-Warshal-Algorithm-With-Path-Print",
+        "subtitle": "Problem Solving",
+        "img": "https://i.ibb.co.com/ns9KRRgq/1.png",
+        "stack": [
+            "C++",
+            "Adjacent Matrix"
+        ],
+        "links": [
+            {
+                "label": "Code",
+                "icon": "fa-code",
+                "url": "https://github.com/indrojitmondal/Floyd-Warshal-Algorithm-With-Path-Print"
+            }
+        ]
+    }
+]

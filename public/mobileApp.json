@@ -1,0 +1,57 @@
+[
+    {
+      "title": "BU Digital Calendar",
+      "subtitle": "Android Development",
+      "img": "https://i.ibb.co.com/0VYYqKgH/bucalendar.png",
+      "stack": [
+        "Java [100%]",
+        "Android"
+      ],
+      "links": [
+        {
+          "label": "Details",
+          "icon": "fa-code",
+          "url": "https://github.com/indrojitmondal/BarishalUniversityCalender"
+        },
+        {
+          "label": "Play",
+          "icon": "fa-code",
+          "url": "https://appetize.io/app/b_ngxvcemjkmnldckat667afoyme"
+        }
+      ]
+    },
+    {
+        "title": "Tourist Spot in Bangladesh",
+        "subtitle": "Android Development",
+        "img": "https://i.ibb.co.com/LXQpvX4k/tousitspot.png",
+        "stack": [
+          "Java [100%]",
+          "Android"
+
+        ],
+        "links": [
+          {
+            "label": "APK",
+            "icon": "fa-code",
+            "url": "https://drive.google.com/file/d/1r99Nn89APM4h21EK6ZJVB2JQJBB8GDqx/view"
+          },
+          {
+            "label": "Play",
+            "icon": "fa-code",
+            "url": "https://appetize.io/app/b_meuss4l2t7bgxxhsmffhjewdyy"
+          }
+
+        ]
+      }
+    
+
+
+
+
+
+
+
+    
+    
+  ]
+  

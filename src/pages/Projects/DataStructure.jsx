@@ -1,11 +1,12 @@
+import React from 'react';
 import axios from 'axios';
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
-const MyRecentProjects = () => {
+const DataStructure = () => {
     const [projects, setProjects]= useState([]);
     const [loading, setLoading] = useState(true);
     useEffect(() => {
-        axios.get("webProjects.json")
+        axios.get("ds.json")
             .then((res) => {
                 setProjects(res.data);
                 console.log(res.data);
@@ -18,21 +19,10 @@ const MyRecentProjects = () => {
     }, []);
 
     return (
-        <div>
-
-            <section id="webApp" className="mt-8 w-11/12 lg:w-10/12 mx-auto">
-                <h1 className="font-bold text-center text-2xl md:text-3xl py-5">
-                    Our Recent Projects
-                </h1>
-
-                <div className="mt-6 p-4 border border-b1 rounded-xl">
-                    <h1 className="text-xl font-bold text-center text-primary p-3">
-                        Web Development
-                    </h1>
-
-                    <div
+        <div className='w-11/12  md:w-10/12 mx-auto '>
+            <div
                         id="web-application-container"
-                        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"
+                        className="grid mt-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"
                     >
                         {/* Project Card Start */}
                         {projects.map((project, idx) => (
@@ -48,7 +38,7 @@ const MyRecentProjects = () => {
                                     <p className="mx-auto text-lg">{project.subtitle}</p>
 
                                     <div>
-                                        <ul className="flex flex-wrap gap-4 text-black">
+                                        <ul className="flex items-center justify-center gap-4 text-black">
                                             {project.stack.map((tech, index) => (
                                                 <li key={index}>{tech}</li>
                                             ))}
@@ -69,12 +59,8 @@ const MyRecentProjects = () => {
                         ))}
                         {/* Project Card End */}
                     </div>
-                </div>
-            </section>
-
-
         </div>
     );
 };
 
-export default MyRecentProjects;
+export default DataStructure;

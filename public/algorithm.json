@@ -1,0 +1,21 @@
+[
+    {
+      "title": "Floyd-Warshal-Algorithm-With-Path-Print",
+      "subtitle": "Problem Solving",
+      "img": "https://i.ibb.co.com/ns9KRRgq/1.png",
+      "stack": [
+        "C++",
+        "Adjacent Matrix"
+      ],
+      "links": [
+        {
+          "label": "Code",
+          "icon": "fa-code",
+          "url": "https://github.com/indrojitmondal/Floyd-Warshal-Algorithm-With-Path-Print"
+        }
+      ]
+    }
+    
+
+  ]
+  

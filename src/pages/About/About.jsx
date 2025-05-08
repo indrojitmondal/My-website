@@ -8,6 +8,7 @@ import leetCodeImage from '../../images/leetcode.png'
 import codeforcesImage from '../../images/codeforces.png'
 import uvaImage from '../../images/uvaonline.jpeg'
 import HireMe from '../Home/HireMe';
+import { Helmet } from 'react-helmet-async';
 
 
 const About = () => {
@@ -51,6 +52,9 @@ const About = () => {
         }, []);
     return (
         <div>
+            <Helmet>
+              <title>Indrojit Mondal | Programmer | Full Stack Developer</title>
+            </Helmet>
             <main className="w-11/12 md:w-10/12 bg-about py-10 mx-auto ">
                 <div className="about-conatiner pb-12 w-full h-auto grid gap-6 grid-cols-1 lg:grid-cols-12 lg:grid-rows-12 ">
                     {/* left */}
