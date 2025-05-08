@@ -68,6 +68,7 @@ const HireMe = () => {
 
             <section id="contact" className="mt-10 w-11/12 lg:w-10/12 mx-auto">
                 <h1 className="font-bold text-center text-p2 mt-1 md:text-xl">HIRE ME</h1>
+                
                 <h1 className="font-bold text-center text-3xl md:text-3xl py-3">
                     Let's Start A New Project
                 </h1>
@@ -128,7 +129,7 @@ const HireMe = () => {
                             </div>
 
                             <p className="text-justify">
-                                The best way to contact me is via{" "}
+                                The best way to contact us is via{" "}
                                 <a
                                     href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=indro.cse.bu@gmail.com"
                                     target="_blank"
@@ -274,7 +275,7 @@ const HireMe = () => {
                                 className="block w-2/4 h-14 md:h-16 border hover:border-primary border-primary bg-primary hover:text-primary hover:bg-white text-white outline-none p-2 md:text-xl"
                                 type="submit"
                             >
-                                HIRE NOW
+                                SEND
                             </button>
                         </div>
 

@@ -25,6 +25,7 @@ export default {
         p3:'rgba(10, 159, 218, .3)',
         card:'#D1D0CE',
         b1:'rgba(10, 159, 218, .3)',
+        projects:'#F8F8F8',
         
 
       },

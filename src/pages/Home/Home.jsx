@@ -10,8 +10,8 @@ import Sliders from './Sliders';
 const Home = () => {
     return (
         <div >
-              {/* <Banner></Banner> */}
-              <Sliders></Sliders>
+              <Banner></Banner>
+              {/* <Sliders></Sliders> */}
               <TechnologiesIWorkWith></TechnologiesIWorkWith>
               <WhatIWorkOn></WhatIWorkOn>
               <MyRecentProjects></MyRecentProjects>

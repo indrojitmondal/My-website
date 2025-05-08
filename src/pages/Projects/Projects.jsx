@@ -5,7 +5,65 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import '../../css/styles.css'
 const Projects = () => {
+    
+    const [webStatus, setWebStatus]=useState(false);
+    const [mobileAppStatus, setMobileAppStatus]=useState(false);
+    const [gameStatus, setGameStatus]=useState(false);
+    const [dsStatus, setDsStatus]=useState(false);
+    const [algorithmStatus, setAlgorithmStatus]=useState(false);
+    const [allStatus, setAllStatus]=useState(true);
 
+    const webChecker= ()=>{
+        setWebStatus(true);
+        setMobileAppStatus(false);
+        setGameStatus(false);
+        setDsStatus(false);
+        setAlgorithmStatus(false);
+        setAllStatus(false);
+       
+    }
+    const mobileAppChecker= ()=>{
+        setWebStatus(false);
+        setMobileAppStatus(true);
+        setGameStatus(false);
+        setDsStatus(false);
+        setAlgorithmStatus(false);
+        setAllStatus(false);
+        
+       
+    }
+    const gameChecker= ()=>{
+        setWebStatus(false);
+        setMobileAppStatus(false);
+        setGameStatus(true);
+        setDsStatus(false);
+        setAlgorithmStatus(false);
+        setAllStatus(false);
+    }
+    const dsChecker= ()=>{
+        setWebStatus(false);
+        setMobileAppStatus(false);
+        setGameStatus(false);
+        setDsStatus(true);
+        setAlgorithmStatus(false);
+        setAllStatus(false);
+    }
+    const algorithmChecker= ()=>{
+        setWebStatus(false);
+        setMobileAppStatus(false);
+        setGameStatus(false);
+        setDsStatus(false);
+        setAlgorithmStatus(true);
+        setAllStatus(false);
+    }
+    const allChecker=()=>{
+        setWebStatus(false);
+        setMobileAppStatus(false);
+        setGameStatus(false);
+        setDsStatus(false);
+        setAlgorithmStatus(false);
+        setAllStatus(true);
+    }
 
 
     return (
@@ -28,37 +86,24 @@ const Projects = () => {
                         />
                     </div>
                     <div className="lg:col-span-9">
-                        {/* <div
-                            className="mt-6 flex flex-wrap lg:flex-row gap-4 lg:justify-between"
-                            id="projects-container"
-                        >
-                           
-                        </div> */}
-                        <Tabs>
-                            <TabList>
-                                <Tab>Web Application</Tab>
-                                <Tab>Mobile Application</Tab>
-                                <Tab>Game Development</Tab>
-                            </TabList>
+                        <div className='mt-6 flex flex-wrap lg:flex-row gap-4 lg:justify-between  '>
 
-                            <TabPanel>
-                            <h2>Any content 1</h2>
-                             </TabPanel>
-                            <TabPanel>
-                                <h2>Any content 2</h2>
-                            </TabPanel>
-                            <TabPanel>
-                                <h2>Any content 3</h2>
-                            </TabPanel>
-                        </Tabs>
+                            <button onClick={()=>webChecker()} className={`border-2 hover:bg-p1 hover:text-white  border-primary p-2 rounded-md   text-primary ${webStatus? 'bg-primary text-white': '' } `}>Web Development</button>
+                            <button onClick={()=>mobileAppChecker()} className={`border-2 hover:bg-p1 hover:text-white  border-primary p-2  rounded-md  text-primary ${mobileAppStatus? 'bg-primary text-white': ''}  `}>Mobile App Development</button>
+                            <button onClick={()=> gameChecker()} className={`border-2 hover:bg-p1 hover:text-white  border-primary p-2 rounded-md  text-primary ${gameStatus? 'bg-primary text-white': ''} `}>Game Development</button>
+                            <button onClick={()=> dsChecker()} className={`border-2 hover:bg-p1 hover:text-white  border-primary p-2 rounded-md  text-primary ${dsStatus? 'bg-primary text-white': ''} `}>Data Structure</button>
+                            <button onClick={()=> algorithmChecker()} className={`border-2 hover:bg-p1 hover:text-white  border-primary p-2 rounded-md  text-primary ${algorithmStatus? 'bg-primary text-white': ''}  `}>Algorithm</button>
+                            <button onClick={()=> allChecker()} className={`border-2 hover:bg-p1 hover:text-white  border-primary p-2 rounded-md  text-primary ${allStatus? 'bg-primary text-white': ''}  `}>ALL</button>
+                        </div>
+
                     </div>
                 </div>
             </div>
 
 
-           <HireMe></HireMe>
+            <HireMe></HireMe>
         </div>
     );
 };
 
-export default Projects;
+export default Projects; 
