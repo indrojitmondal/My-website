@@ -1,0 +1,31 @@
+[
+    {
+      "title": "What is the Document Object Model (DOM)?",
+      "content": "DOM is one kind of component of HTML documents that can modify dynamically using programming language like JavaScript."
+    },
+    {
+      "title": "How do you select an element from the DOM?",
+      "content": "I select an element in different ways. If I need only for a specific document then I use getElementById. And if I need an array of documents then I use querySelectorAll(). Sometimes I use getElementsByClassName to modify some similar documents."
+    },
+    {
+      "title": "What is event delegation in the context of the DOM, and why is it useful?",
+      "content": "Event delegation is a root event listener through which its child nodes can also listen for events using event.target. It is an optimization solution for large codebases or many event listeners."
+    },
+    {
+      "title": "How do you manipulate an element's attributes and styles using the DOM?",
+      "content": "I manipulate an element's attributes using setAttribute('attributeName','value') and removeAttribute('attributeName'). I style the DOM using the 'style' keyword and properties like dom.style.color = 'green'."
+    },
+    {
+      "title": "Explain Git Command for client side and server side",
+      "content": "Client Side:\ngit add .\ngit commit -m 'something'\ngit push\nnpm run build\nfirebase deploy\n\nServer Side:\ngit add .\ngit commit -m 'something'\ngit push\nvercel --prod"
+    },
+    {
+      "title": "Explain React+Tailwindcss+ DaisyUI Project Setup",
+      "content": "npm create vite@latest simple-react-app -- --template react\ncd simple-react-app\nnpm install react-router-dom\nnpm install localforage match-sorter sort-by\nnpm install -D tailwindcss@3 postcss autoprefixer\nnpx tailwindcss init -p\nnpm i -D daisyui@latest\n\n// tailwind.config.js\nexport default {\n  content: [\n    \"./index.html\",\n    \"./src/**/*.{js,ts,jsx,tsx}\",\n  ],\n  theme: {\n    extend: {},\n  },\n  plugins: [require('daisyui')],\n}"
+    },
+    {
+      "title": "How to take code in your own repository from a private repository",
+      "content": "Open a new git repository\ngit remote set-url origin repo_link\ngit push"
+    }
+  ]
+  

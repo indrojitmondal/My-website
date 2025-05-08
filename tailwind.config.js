@@ -26,6 +26,7 @@ export default {
         card:'#D1D0CE',
         b1:'rgba(10, 159, 218, .3)',
         projects:'#F8F8F8',
+        services: '#F8F8F8',
         
 
       },
