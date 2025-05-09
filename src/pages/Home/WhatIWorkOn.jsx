@@ -10,7 +10,7 @@ const WhatIWorkOn = () => {
         <div>
             <section id="work" className="mt-8 w-11/12 lg:w-10/12 mx-auto">
                 <h1 className="font-bold text-center text-2xl md:text-3xl py-5">
-                    What We Work On
+                    What I Work On
                 </h1>
 
                 <div className="mt-6 grid grid-cols-1 md:grid-cols-2 p-4 border border-gray-300 rounded-xl items-center gap-4">

@@ -22,7 +22,7 @@ const MyRecentProjects = () => {
 
             <section id="webApp" className="mt-8 w-11/12 lg:w-10/12 mx-auto">
                 <h1 className="font-bold text-center text-2xl md:text-3xl py-5">
-                    Our Recent Projects
+                    My Recent Projects
                 </h1>
 
                 <div className="mt-6 p-4 border border-b1 rounded-xl">
