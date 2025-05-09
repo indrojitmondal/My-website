@@ -12,7 +12,7 @@ const TechnologiesIWorkWith = () => {
         <div>
             <section className="w-11/12 lg:w-10/12 mx-auto">
                 <h1 className="font-bold text-center text-2xl md:text-3xl py-5">
-                    Technologies We Work With
+                    Technologies I Work With
                 </h1>
 
                 <div className="mt-6 grid hover:rotate-1 grid-cols-2 border p-4 border-gray-300 rounded-xl lg:grid-cols-4 items-center gap-5">
