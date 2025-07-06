@@ -9,6 +9,7 @@ import codeforcesImage from '../../images/codeforces.png'
 import uvaImage from '../../images/uvaonline.jpeg'
 import HireMe from '../Home/HireMe';
 import { Helmet } from 'react-helmet-async';
+import Skills from './Skills';
 
 
 const About = () => {
@@ -346,13 +347,13 @@ const About = () => {
                                 <progress className="progress progress-primary w-full" value="80" max="100"></progress> <br />
                                 <div className="w-full flex justify-between ">
                                     <h2>ReactJS</h2>
-                                    <h2>75%</h2>
+                                    <h2>90%</h2>
                                 </div>
                                 <progress className="progress progress-secondary  w-full" value="85" max="100"></progress> <br />
 
                                 <div className="w-full flex justify-between ">
                                     <h2>NodeJS/C++/Java/Python</h2>
-                                    <h2>70%</h2>
+                                    <h2>80%</h2>
                                 </div>
                                 <progress className="progress progress-error w-full" value="70" max="100"></progress>
 
@@ -363,7 +364,7 @@ const About = () => {
                                 <progress className="progress progress-success  w-full" value="70" max="100"></progress>
                                 <div className="w-full flex justify-between ">
                                     <h2>Responsive Design</h2>
-                                    <h2>85%</h2>
+                                    <h2>90%</h2>
                                 </div>
                                 <progress className="progress  progress-accent  w-full" value="85" max="100"></progress>
 
@@ -374,6 +375,9 @@ const About = () => {
                                 <progress className="progress progress-warning w-full" value="75" max="100"></progress>
                             </div>
                         </div>
+
+                        <Skills></Skills>
+                        
                     </div>
                 </div>
             </main>
