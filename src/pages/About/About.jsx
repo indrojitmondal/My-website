@@ -376,7 +376,9 @@ const About = () => {
                             </div>
                         </div>
 
-                        <Skills></Skills>
+                        <div className='mt-3'>
+                        <Skills ></Skills>
+                        </div>
                         
                     </div>
                 </div>
