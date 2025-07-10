@@ -29,6 +29,35 @@
         ]
     },
     {
+        "title": "CITY HOTEL(Responsive Website)",
+        "subtitle": "Building Management System",
+        "img": "https://i.postimg.cc/3NLzCLJX/cityhotel.png",
+        "stack": [
+          "MongoDB [30%]",
+          "ExpressJS [30%]",
+          "ReactJS [10%]",
+          "JWT [20%]",
+          "Firebase [10%]"
+        ],
+        "links": [
+          {
+            "label": "ClientSide",
+            "icon": "fa-code",
+            "url": "https://github.com/indrojitmondal/City-Hotel-Client"
+          },
+          {
+            "label": "ServerSide",
+            "icon": "fa-code",
+            "url": "https://github.com/indrojitmondal/City-Hotel-Server"
+          },
+          {
+            "label": "LiveSite",
+            "icon": "fa-globe",
+            "url": "https://city-hotel-7c0c3.web.app/"
+          }
+        ]
+    },
+    {
         "title": "PAIKGACA(Responsive Website)",
         "subtitle": "Coupon Collection Application",
         "img": "https://i.ibb.co.com/r2QMd4Gq/10.png",
