@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaReact, FaJs, FaNodeJs, FaHtml5, FaCss3Alt, FaGithub, FaDatabase } from 'react-icons/fa';
-import { SiExpress, SiMongodb, SiTailwindcss, SiFirebase, SiVercel } from 'react-icons/si';
+import { FaReact, FaJs, FaNodeJs, FaHtml5, FaCss3Alt, FaGithub, FaDatabase, FaJava } from 'react-icons/fa';
+import { SiExpress, SiMongodb, SiTailwindcss, SiFirebase, SiVercel, SiCplusplus } from 'react-icons/si';
 
 import { VscVscode } from 'react-icons/vsc';
 const skills = [
@@ -17,17 +17,20 @@ const skills = [
   { icon: <FaGithub size={40} className="text-red-500" />, name: 'Git & GitHub' },
   { icon: <FaDatabase size={40} className="text-blue-400" />, name: 'Database Management' },
   { icon: <VscVscode size={40} className="text-blue-500" />, name: 'VS Code' },
+  { icon: <SiCplusplus size={40} className="text-blue-700" />, name: 'C++' },
+  { icon: <FaJava size={40} className="text-blue-700" />, name: 'Java' },
 ];
 
 const Skills = () => {
   return (
-    <div className="bg-gradient-to-b from-black to-primary py-12 text-white">
-      <h2 className="text-4xl font-bold text-center mb-10">My Skills</h2>
+    <div className=" py-12 text-black">
+      
+      <h2 className="text-2xl font-bold text-center mb-10">My Skills</h2>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 px-4 md:px-10">
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="bg-[#121C2D] p-6 rounded-xl flex flex-col items-center justify-center text-center shadow-md hover:scale-105 transition-transform duration-300"
+            className=" p-6 rounded-xl flex flex-col items-center justify-center text-center shadow-md hover:scale-105 transition-transform duration-300"
           >
             {skill.icon}
             <p className="mt-4 text-lg font-semibold">{skill.name}</p>
