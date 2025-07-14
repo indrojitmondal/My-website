@@ -55,6 +55,10 @@ const About = () => {
         <div>
             <Helmet>
               <title>Indrojit Mondal | Programmer | Full Stack Developer</title>
+              <meta name="description" content="Learn more about Indrojit Mondal, a full-stack developer based in Bangladesh." />
+        <meta name="keywords" content="Indrojit Mondal, Web Developer, Full Stack Developer, React Developer Bangladesh" />
+        <meta name="author" content="Indrojit Mondal" />
+        <link rel="canonical" href="https://indrojit.vercel.app/about" />
             </Helmet>
             <main className="w-11/12 md:w-10/12 bg-about py-10 mx-auto ">
                 <div className="about-conatiner pb-12 w-full h-auto grid gap-6 grid-cols-1 lg:grid-cols-12 lg:grid-rows-12 ">

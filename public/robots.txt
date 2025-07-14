@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://indrojit.vercel.app/sitemap.xml
