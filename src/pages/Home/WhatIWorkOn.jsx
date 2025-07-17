@@ -5,6 +5,7 @@ import mobileAppImage from '../../images/mobileApp.jpg'
 import roboticsImage from '../../images/machine-learning/ml.png'
 import devOppImage from '../../images/DevOps Engineering/devOps.png'
 import cyberSecurityImage from '../../images/CyberSecurity/cs.png'
+import { Link } from 'react-router-dom';
 const WhatIWorkOn = () => {
     return (
         <div>
@@ -41,6 +42,7 @@ const WhatIWorkOn = () => {
                     </div>
 
                     {/* Mobile App */}
+                    <a href='#mobileApp'>
                     <div className="hover:rotate-1 flex flex-col border border-gray-300 rounded-lg">
                         <h1 className="text-xl font-bold text-center text-primary p-3">
                             Mobile App Development
@@ -51,6 +53,7 @@ const WhatIWorkOn = () => {
                             alt="Mobile App Development"
                         />
                     </div>
+                    </a>
 
                     {/* Robotics */}
                     <div className="hover:rotate-1 flex flex-col border border-gray-300 rounded-lg">
