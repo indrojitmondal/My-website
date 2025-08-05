@@ -1,5 +1,27 @@
 [
     {
+        "title": "NeuroSoftic Software Solution",
+        "subtitle": "Corporate Website",
+        "img": "https://i.ibb.co.com/BVtsfR8Q/neuro.png",
+        "stack": [
+          "HTML+TailwindCSS [30%]",
+          "ReactJS [70%]"
+          
+        ],
+        "links": [
+          {
+            "label": "ClientSide",
+            "icon": "fa-code",
+            "url": "https://github.com/indrojitmondal/NeuroSoftic-Software-Solution"
+          },
+          {
+            "label": "LiveSite",
+            "icon": "fa-globe",
+            "url": "https://neurosoftic.vercel.app/"
+          }
+        ]
+      },
+    {
         "title": "SUN@JIT(Responsive Website)",
         "subtitle": "Game Review Application",
         "img": "https://i.ibb.co.com/R4V7VkTC/11.png",
