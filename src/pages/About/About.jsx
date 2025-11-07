@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 // import  '../../js/dob.js'
-import indrojitImage from '../../images/indrojit.jpg'
+import indrojitImage from '../../images/Me/rsz_image1.jpg'
 import professionalCoder from '../../icon/Layer_1.png'
 import reactImage from '../../icon/reactjs.png'
 import realLifeImage from '../../images/1713456677748.jpeg'
