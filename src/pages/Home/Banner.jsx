@@ -18,7 +18,7 @@ const Banner = () => {
                             <h1 className="font-medium text-4xl text-primary pt-4">Indrojit Mondal</h1>
 
                             <h3 className="py-3 font-medium text-2xl">
-                                Programmer | Full Stack Developer | MERN Developer
+                                Programmer | Software Engineer | Entrepreneur 
                             </h3>
 
                             <div className="flex gap-3 justify-center pb-4 text-xl">
@@ -64,6 +64,13 @@ const Banner = () => {
                                         className="block"
                                     >
                                         <i className="fa-brands fa-linkedin text-5xl hover:text-primary"></i>
+                                    </a>
+                                    <a
+                                        href="https://www.youtube.com/@indrojitmondal8996"
+                                        title="Youtube"
+                                        className="block"
+                                    >
+                                        <i className="fa-brands fa-youtube text-5xl hover:text-primary"></i>
                                     </a>
 
                                     <a

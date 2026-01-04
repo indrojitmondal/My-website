@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <div >
               <Helmet>
-              <title>Indrojit Mondal | Programmer | Full Stack Developer</title>
+              <title>Indrojit Mondal | Programmer | Software Engineer</title>
               </Helmet>
               <Banner></Banner>
               {/* <Sliders></Sliders> */}

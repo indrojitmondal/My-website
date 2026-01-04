@@ -54,7 +54,7 @@ const About = () => {
     return (
         <div>
             <Helmet>
-              <title>Indrojit Mondal | Programmer | Full Stack Developer</title>
+              <title>Indrojit Mondal | Software Engineer | Entrepreneur </title>
               <meta name="description" content="Learn more about Indrojit Mondal, a full-stack developer based in Bangladesh." />
         <meta name="keywords" content="Indrojit Mondal, Web Developer, Full Stack Developer, React Developer Bangladesh" />
         <meta name="author" content="Indrojit Mondal" />
@@ -75,7 +75,7 @@ const About = () => {
                             </h1>
                             <span className="text-primary">indro.cse.bu</span>@
                             <span className="text-primary">gmail.com </span>
-                            <p className="pb-2 text-lg">Programmer | MERN Stack Developer</p>
+                            <p className="pb-2 text-lg">Software Engineer | Entrepreneur</p>
 
                             <div className="flex  gap-3 justify-center pb-2  ">
                                 <button className="block bg-primary text-white text-lg px-2">
@@ -125,6 +125,14 @@ const About = () => {
                                         rel="noopener noreferrer"
                                     >
                                         <i className="fa-brands fa-linkedin text-3xl hover:text-primary"></i>
+                                    </a>
+
+                                    <a
+                                        href="https://www.youtube.com/@indrojitmondal8996"
+                                        title="Youtube"
+                                        className="block"
+                                    >
+                                        <i className="fa-brands fa-youtube text-3xl hover:text-primary"></i>
                                     </a>
 
                                    
@@ -271,15 +279,14 @@ const About = () => {
 
                         <p className=" text-justify  text-base">
                             {' '}
-                            <span>Greetings!</span> <br /> I am <span className="text-primary">Indrojit Mondal</span>, a passionate software engineer dedicated to building innovative software. I hold a Bachelor's degree in{' '}
+                            <span>Welcome to my Website,</span> <br /> I am <span className="text-primary">Indrojit Mondal</span>, a passionate software engineer dedicated to building innovative software. I hold a Bachelor's degree in{' '}
                             <span className="text-primary">Computer Science and Engineering(CSE) </span> from the{' '}
                             <a target="_blank" href="https://bu.ac.bd/" className="text-primary hover:underline " rel="noopener noreferrer">
                                 University of Barishal
                             </a>
-                            . With 5 month of experience in ReactJS and NodeJS, alongside solving 400+ problems with 7 years experience and solving basic problem solving related to mathematics, algorithms, and data structures, I bring a strong technical foundation and a creative mindset to the table. My experience in software development has equipped me to tackle real-world challenges effectively.
-                            I'm actively seeking a software engineering role where I can apply my skills, grow professionally, and contribute to impactful projects.
-                            Beyond programming, I have a deep sense of empathy. In my personal time, I often visit hospitals to observe and reflect on patients' situations, drawing inspiration for solutions that can make a difference.
-                            Feel free to explore my problem-solving profiles below. I look forward to connecting and collaborating!
+                            . Now I am taking BD Govt job preparation to build my career in IT profession  besides this  I'm teaching on Youtube and also looking a freelance software engineering role where I can apply my skills, grow professionally, and contribute to impactful projects. In my distraction time I love to travel and I got a fresh mindset.
+                             With 5 month of experience in ReactJS and NodeJS, alongside solving 400+ problems with 7 years experience and solving basic problem solving related to mathematics, algorithms, and data structures, I bring a strong technical foundation and a creative mindset to the table. My experience in software development has equipped me to tackle real-world challenges effectively.
+                           
                             {/* flex flex-col md:flex-row gap-4 */}
                             <div className="flex flex-col md:flex-row gap-8 justify-between my-8">
                                 <img src={professionalCoder} className="h-44 block" title="Professional Coder" alt="" />
