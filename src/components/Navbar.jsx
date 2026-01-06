@@ -7,7 +7,12 @@ import { RxCross1 } from "react-icons/rx";
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
   const handleMenuBar = () => setMenu(!menu);
-
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "auto",
+    });
+  };
   return (
     // Set `sticky top-0 z-50` on the **outermost wrapper**
     <div className='sticky top-0 z-50 bg-about '>
@@ -30,6 +35,7 @@ const Navbar = () => {
               <NavLink
                 key={path}
                 to={path}
+                onClick={scrollToTop}
                 className="block relative nav-link"
               >
                 {({ isActive }) => (
@@ -59,6 +65,10 @@ const Navbar = () => {
               <NavLink
                 key={path}
                 to={path}
+                onClick={() => {
+                  scrollToTop();
+                  setMenu(false);
+                }}
                 className={({ isActive }) => `block text-lg ${isActive ? "text-primary" : ""}`}
               >
                 {["Home", "About Me", "Projects", "Services", "Blogs", "Contact Me"][i]}
