@@ -165,23 +165,36 @@ const About = () => {
 
                         <div className="progrss  p-2">
                             <p className="text-justify  text-base">
-                                As a Computer Science and Engineering graduate and a passionate programmer, I stay up-to-date with emerging technologies and embrace challenges to adapt and solve real-world problems effectively. I specialize in web application development using the MERN stack, combining technical expertise with a passion for innovation. Becoming an engineer has been my dream since childhood, and I am proud to be on this journey, continually striving to turn my aspirations into reality.
+                                As a Computer Science and Engineering graduate and a passionate programmer, I stay up-to-date with emerging technologies and embrace challenges to adapt and solve real-world problems effectively. Becoming an engineer has been my dream since childhood, and I am proud to be on this journey, continually striving to turn my aspirations into reality.
                             </p>
 
                             {/* Working Interest */}
                             <div className="Working-Interest">
                                 <div className="pt-2 pb-1">
                                     <i className="fa-solid fa-computer"></i>
-                                    <h1 className="inline-block font-medium">My Working Interest:</h1>
+                                    <h1 className="inline-block font-medium"> &nbsp; My Working Interest:</h1>
                                 </div>
 
                                 <div className="pl-20">
+                                   
                                     <div className="flex items-center ">
-                                     
+                                 
 
-                                        <h2>✓ Web Application Development</h2>
+                                        <h2>✓ Digital Marketing</h2>
                                     </div>
 
+                                    <div className="flex items-center ">
+                                 
+
+                                        <h2>✓ Graphics Designing</h2>
+                                    </div>
+
+                                     <div className="flex items-center ">
+                                     
+                                        
+                                        <h2>✓ Web Application Development</h2>
+                                    </div>
+                               
                                     <div className="flex items-center ">
                                     
                                         <a
@@ -248,7 +261,7 @@ const About = () => {
                                 <div className="pt-3 pb-1">
                                     {/* <i className="fa-solid fa-house"></i> */}
                                     <i className="fas fa-user"></i>
-                                    <h1 className="inline-block font-medium">Age: &nbsp;</h1>
+                                    <h1 className="inline-block font-medium">&nbsp; Age: &nbsp;</h1>
                                     <h2 className="inline-block" id="age-calculation">{age}</h2>
                                     {/* <script src="js/dob.js"></script> */}
                                 </div>
@@ -259,7 +272,7 @@ const About = () => {
                             <div className="LivesIn">
                                 <div className="pt-3 pb-1">
                                     <i className="fa-solid fa-house"></i>
-                                    <h1 className="inline-block font-medium">Home: </h1>{' '}
+                                    <h1 className="inline-block font-medium">&nbsp; Home: </h1>{' '}
                                     <a
                                         href="https://maps.app.goo.gl/SoqjTH11UWKLgeRc6"
                                         target="_blank"
@@ -279,13 +292,13 @@ const About = () => {
 
                         <p className=" text-justify  text-base">
                             {' '}
-                            <span>Welcome to my Website,</span> <br /> I am <span className="text-primary">Indrojit Mondal</span>, a passionate software engineer dedicated to building innovative software. I hold a Bachelor's degree in{' '}
+                            <span>Welcome to my Website,</span> <br /> I am <span className="text-primary"> Indrojit Mondal</span>, a passionate software engineer dedicated to building innovative software. I received my Bachelor's degree in{' '}
                             <span className="text-primary">Computer Science and Engineering(CSE) </span> from the{' '}
                             <a target="_blank" href="https://bu.ac.bd/" className="text-primary hover:underline " rel="noopener noreferrer">
-                                University of Barishal
+                                University of Barishal.
                             </a>
-                            . Now I am taking BD Govt job preparation to build my career in IT profession  besides this  I'm teaching on Youtube and also looking a freelance software engineering role where I can apply my skills, grow professionally, and contribute to impactful projects. In my distraction time I love to travel and I got a fresh mindset.
-                             With 5 month of experience in ReactJS and NodeJS, alongside solving 400+ problems with 7 years experience and solving basic problem solving related to mathematics, algorithms, and data structures, I bring a strong technical foundation and a creative mindset to the table. My experience in software development has equipped me to tackle real-world challenges effectively.
+                            &nbsp;Now I am taking BD Govt Job preparation to grow up my programming skills in the production level. Besides this I'am teaching on Youtube and looking for a freelance opportunity. Please explore my website and hire me for your business. 
+                            &nbsp;With 5 month of experience in ReactJS and NodeJS, alongside solving 400+ problems with 7 years experience and solving basic problem solving related to mathematics, algorithms, and data structures, I bring a strong technical foundation and a creative mindset to the table. My experience in software development has equipped me to tackle real-world challenges effectively.
                            
                             {/* flex flex-col md:flex-row gap-4 */}
                             <div className="flex flex-col md:flex-row gap-8 justify-between my-8">
@@ -346,11 +359,24 @@ const About = () => {
                             </p>
 
                             <div className="w-full lg:w-1/2 pl-11 pt-6">
+                                
+                                 
+                                 <div className="w-full flex justify-between ">
+                                    <h2>Adapting AI</h2>
+                                    <h2>70%</h2>
+                                </div>
+                                <progress className="progress progress-success  w-full" value="70" max="100"></progress>
+                                
+                               
+                                
                                 <div className="w-full flex justify-between ">
                                     <h2>HTML/CSS</h2>
                                     <h2>90%</h2>
                                 </div>
                                 <progress className="progress progress-info w-ful" value="90" max="100"></progress> <br />
+                               
+                               
+                               
                                 <div className="w-full flex justify-between ">
                                     <h2>JavaScript</h2>
                                     <h2>80%</h2>
@@ -373,6 +399,7 @@ const About = () => {
                                     <h2>70%</h2>
                                 </div>
                                 <progress className="progress progress-success  w-full" value="70" max="100"></progress>
+                                
                                 <div className="w-full flex justify-between ">
                                     <h2>Responsive Design</h2>
                                     <h2>90%</h2>
