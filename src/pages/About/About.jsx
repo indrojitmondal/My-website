@@ -298,7 +298,7 @@ const About = () => {
                                 University of Barishal.
                             </a>
                             &nbsp;Now I am taking BD Govt Job preparation to grow up my programming skills in the production level. Besides this I'am teaching on Youtube and looking for a freelance opportunity. Please explore my website and hire me for your business. 
-                            &nbsp;With 5 month of experience in ReactJS and NodeJS, alongside solving 400+ problems with 7 years experience and solving basic problem solving related to mathematics, algorithms, and data structures, I bring a strong technical foundation and a creative mindset to the table. My experience in software development has equipped me to tackle real-world challenges effectively.
+                            With 5 month of experience in ReactJS and NodeJS, alongside solving 400+ problems with 7 years experience and solving basic problem solving related to mathematics, algorithms, and data structures, I bring a strong technical foundation and a creative mindset to the table. My experience in software development has equipped me to tackle real-world challenges effectively.
                            
                             {/* flex flex-col md:flex-row gap-4 */}
                             <div className="flex flex-col md:flex-row gap-8 justify-between my-8">
