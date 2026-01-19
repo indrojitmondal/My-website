@@ -297,8 +297,8 @@ const About = () => {
                             <a target="_blank" href="https://bu.ac.bd/" className="text-primary hover:underline " rel="noopener noreferrer">
                                 University of Barishal.
                             </a>
-                            &nbsp;Now I am taking BD Govt Job preparation to grow up my programming skills in the production level. Besides this I'am teaching on Youtube and looking for a freelance opportunity. Please explore my website and hire me for your business. 
-                            With 5 month of experience in ReactJS and NodeJS, alongside solving 400+ problems with 7 years experience and solving basic problem solving related to mathematics, algorithms, and data structures, I bring a strong technical foundation and a creative mindset to the table. My experience in software development has equipped me to tackle real-world challenges effectively.
+                            &nbsp;Now I am taking BD Govt Job preparation to develop a secured working place. Besides this I'am creating video on Youtube to develop my pronunciation. 
+                            With 6 month of experience in ReactJS and NodeJS, alongside solving 400+ problems and 7 years experience of solving basic problems related to mathematics, algorithms, and data structures, I bring a strong technical foundation and a creative mindset to the table. My experience in software development has equipped me to tackle real-world challenges effectively.
                            
                             {/* flex flex-col md:flex-row gap-4 */}
                             <div className="flex flex-col md:flex-row gap-8 justify-between my-8">
