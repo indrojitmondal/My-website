@@ -292,13 +292,15 @@ const About = () => {
 
                         <p className=" text-justify  text-base">
                             {' '}
-                            <span>Welcome to my Website,</span> <br /> I am <span className="text-primary"> Indrojit Mondal</span>, a passionate software engineer dedicated to building innovative software. I received my Bachelor's degree in{' '}
+                            {/* <span>Welcome to Indrojit,</span> <br /> */}
+                             This <span className="text-primary"> is Indrojit Mondal</span>, a passionate software engineer dedicated to building innovative software. He received his Bachelor's degree in{' '}
+                           
                             <span className="text-primary">Computer Science and Engineering(CSE) </span> from the{' '}
                             <a target="_blank" href="https://bu.ac.bd/" className="text-primary hover:underline " rel="noopener noreferrer">
                                 University of Barishal.
                             </a>
-                            &nbsp;Now I am taking BD Govt Job preparation to develop a secured working place. Besides this I'am creating video on Youtube to develop my pronunciation. 
-                            With 6 month of experience in ReactJS and NodeJS, alongside solving 400+ problems and 7 years experience of solving basic problems related to mathematics, algorithms, and data structures, I bring a strong technical foundation and a creative mindset to the table. My experience in software development has equipped me to tackle real-world challenges effectively.
+                            &nbsp;Now he is taking BD Govt Job preparation to develop a secured working place. Besides this he is creating videos on Youtube to develop his pronunciation. 
+                            With 6 month of experience in ReactJS and NodeJS, alongside solving 400+ problems and 7 years experience of solving basic problems related to mathematics, algorithms, and data structures, He bring a strong technical foundation and a creative mindset to the table. His experience in software development has equipped me to tackle real-world challenges effectively.
                            
                             {/* flex flex-col md:flex-row gap-4 */}
                             <div className="flex flex-col md:flex-row gap-8 justify-between my-8">
@@ -309,11 +311,11 @@ const About = () => {
                         </p>
 
                         <h2 className="pb-2 text-justify  text-base">
-                            My areas of expertise include <span className="text-primary">ReactJS, NodeJS, and MongoDB</span>. In free time, I enjoy solving problems on LeetCode and Codeforces to enhance my skills.
+                            His areas of expertise include <span className="text-primary">ReactJS, NodeJS, and MongoDB</span>. In free time, He enjoy solving problems on LeetCode and Codeforces to enhance his skills.
                         </h2>
 
                         <div className="flex gap-2 md:gap-5 pt-3">
-                           
+                        
 
                             
 
@@ -355,7 +357,7 @@ const About = () => {
                             </h1>
 
                             <p className="text-justify  text-base">
-                                With a focus on continuous learning and innovation, I stay up-to-date with the latest technologies to deliver top-quality solutions across my projects. I continuously strive to improve my expertise across various domains of web development and programming. Below is a visual representation of my current proficiency in key skills:
+                                With a focus on continuous learning and innovation, He stay up-to-date with the latest technologies to deliver top-quality solutions across my projects. He continuously strives to improve his expertise across various domains of web development and programming. Below is a visual representation of his current proficiency in key skills:
                             </p>
 
                             <div className="w-full lg:w-1/2 pl-11 pt-6">
