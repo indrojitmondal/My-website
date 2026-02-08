@@ -40,7 +40,7 @@ const Navbar = () => {
               >
                 {({ isActive }) => (
                   <>
-                    {["HOME", "ABOUT ME", "PROJECTS", "SERVICES", "BLOGS", "CONTACT ME"][i]}
+                    {["HOME", "ABOUT ", "PROJECTS", "SERVICES", "BLOGS", "CONTACT"][i]}
                     {isActive && <span className="absolute left-0 bottom-0 w-full h-[2px] bg-primary"></span>}
                   </>
                 )}

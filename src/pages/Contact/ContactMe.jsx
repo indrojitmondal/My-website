@@ -68,7 +68,7 @@ const ContactMe = () => {
         <div>
 
             <section id="contact" className="mt-10 w-11/12 lg:w-10/12 mx-auto">
-                <h1 className="font-bold text-center text-p2 mt-1 md:text-xl">CONTACT ME</h1>
+                <h1 className="font-bold text-center text-p2 mt-1 md:text-xl">CONTACT </h1>
                 <h1 className="font-bold text-center text-3xl md:text-3xl py-3">
                     Let's Start A New Project
                 </h1>
@@ -79,7 +79,7 @@ const ContactMe = () => {
                         <div className="flex gap-4">
                             <img src={mobileImage} className="w-12 h-14 hover:text-primary" alt="" />
                             <div>
-                                <h3 className="text-xl">Give me a call</h3>
+                                <h3 className="text-xl">Give him a call</h3>
                                 <p>
                                     +880-1966796110 <br />
                                     +880-1577147931
@@ -90,7 +90,7 @@ const ContactMe = () => {
                         <div className="flex gap-4">
                             <img src={emailImage} className="w-12 h-14 hover:text-primary" alt="" />
                             <div>
-                                <h3 className="text-xl">Send me an email</h3>
+                                <h3 className="text-xl">Send him an email</h3>
                                 <p>indro.cse.bu@gmail.com<br /></p>
                             </div>
                         </div>
@@ -100,7 +100,7 @@ const ContactMe = () => {
                             <div>
                                 <h3 className="text-xl">Location</h3>
                                 <p>
-                                    Paikgacha Municipality 9280<br />
+                                    Paikgacha 
                                     Khulna, Bangladesh
                                 </p>
                             </div>
@@ -129,7 +129,7 @@ const ContactMe = () => {
                             </div>
 
                             <p className="text-justify">
-                                The best way to contact me is via{" "}
+                                The best way to contact his is via{" "}
                                 <a
                                     href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=indro.cse.bu@gmail.com"
                                     target="_blank"
@@ -137,7 +137,7 @@ const ContactMe = () => {
                                     className="text-sm text-primary hover:underline"
                                 >
                                     email
-                                </a>. I try to respond to every message.
+                                </a>.
                             </p>
                         </div>
                     </div>

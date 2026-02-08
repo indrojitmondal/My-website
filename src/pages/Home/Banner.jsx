@@ -103,7 +103,7 @@ const Banner = () => {
 
                             <a href="#contact">
                                 <button className="mt-4 font-bold text-lg border px-5 py-3 rounded-xl border-primary hover:bg-primary bg-hello text-white">
-                                    Hire Me
+                                    Hire Him
                                 </button>
                             </a>
                         </div>
@@ -116,7 +116,7 @@ const Banner = () => {
 
                 <a href="#work">
                     <button className="mt-5 hover:bg-primary hover:text-white text-lg border px-5 py-3 rounded-xl text-primary font-bold border-primary">
-                        See My Work
+                        See His Works 
                     </button>
                 </a>
 

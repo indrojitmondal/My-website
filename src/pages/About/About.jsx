@@ -165,35 +165,37 @@ const About = () => {
 
                         <div className="progrss  p-2">
                             <p className="text-justify  text-base">
-                                As a Computer Science and Engineering graduate and a passionate programmer, I stay up-to-date with emerging technologies and embrace challenges to adapt and solve real-world problems effectively. Becoming an engineer has been my dream since childhood, and I am proud to be on this journey, continually striving to turn my aspirations into reality.
+                                As a Computer Science and Engineering graduate and a passionate programmer, He stays up-to-date with emerging technologies and embrace challenges to adapt and solve real-world problems effectively.
                             </p>
 
                             {/* Working Interest */}
                             <div className="Working-Interest">
                                 <div className="pt-2 pb-1">
                                     <i className="fa-solid fa-computer"></i>
-                                    <h1 className="inline-block font-medium"> &nbsp; My Working Interest:</h1>
+                                    <h1 className="inline-block font-medium"> &nbsp; His Working Interest:</h1>
                                 </div>
 
                                 <div className="pl-20">
                                    
-                                    <div className="flex items-center ">
-                                 
-
-                                        <h2>✓ Digital Marketing</h2>
-                                    </div>
-
-                                    <div className="flex items-center ">
-                                 
-
-                                        <h2>✓ Graphics Designing</h2>
-                                    </div>
+                                   
 
                                      <div className="flex items-center ">
                                      
                                         
                                         <h2>✓ Web Application Development</h2>
                                     </div>
+
+                                    <div className="flex items-center ">
+                                 
+
+                                 <h2>✓ Digital Marketing</h2>
+                             </div>
+
+                             <div className="flex items-center ">
+                          
+
+                                 <h2>✓ Graphics Designing</h2>
+                             </div>
                                
                                     <div className="flex items-center ">
                                     
@@ -299,7 +301,7 @@ const About = () => {
                             <a target="_blank" href="https://bu.ac.bd/" className="text-primary hover:underline " rel="noopener noreferrer">
                                 University of Barishal.
                             </a>
-                            &nbsp;Now he is taking BD Govt Job preparation to develop a secured working place. Besides this he is creating videos on Youtube to develop his pronunciation. 
+                            &nbsp;Now he is taking BD Govt Job preparation to develop a secured working place. Besides this he is working on Upwork. 
                             With 6 month of experience in ReactJS and NodeJS, alongside solving 400+ problems and 7 years experience of solving basic problems related to mathematics, algorithms, and data structures, He bring a strong technical foundation and a creative mindset to the table. His experience in software development has equipped me to tackle real-world challenges effectively.
                            
                             {/* flex flex-col md:flex-row gap-4 */}
@@ -357,7 +359,7 @@ const About = () => {
                             </h1>
 
                             <p className="text-justify  text-base">
-                                With a focus on continuous learning and innovation, He stay up-to-date with the latest technologies to deliver top-quality solutions across my projects. He continuously strives to improve his expertise across various domains of web development and programming. Below is a visual representation of his current proficiency in key skills:
+                                With a focus on continuous learning and innovation, He stays up-to-date with the latest technologies to deliver top-quality solutions across my projects. He continuously strives to improve his expertise across various domains of web development and programming. Below is a visual representation of his current proficiency in key skills:
                             </p>
 
                             <div className="w-full lg:w-1/2 pl-11 pt-6">
