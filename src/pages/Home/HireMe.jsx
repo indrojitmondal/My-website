@@ -100,7 +100,7 @@ const HireMe = () => {
                             <div>
                                 <h3 className="text-xl">Location</h3>
                                 <p>
-                                    Paikgacha Khulna, Bangladesh
+                                   Khulna, Bangladesh
                                 </p>
                             </div>
                         </div>

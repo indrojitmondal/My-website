@@ -26,10 +26,10 @@ const Blogs = () => {
           <img src={myBlogsImage} className="block h-40" alt="Blog" />
           <div className="text-center">
             <h1 className="font-bold text-primary pt-5">
-              <span className="text-primary font-bold">MY</span> BLOGS
+              <span className="text-primary font-bold">HIS</span> BLOGS
             </h1>
             <p>
-              Welcome to my Blogs. Here I have shared some important development questions that might be helpful for developers.
+              Welcome to His Blogs. Here He has shared some important development questions that might be helpful for developers.
             </p>
           </div>
         </div>

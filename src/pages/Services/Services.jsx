@@ -27,13 +27,13 @@ const Services = () => {
                     />
                     <div className="text-center">
                         <h1 className=" font-bold text-primary pt-5">
-                            <span className="text-primary font-bold">MY</span> SERVICES
+                            <span className="text-primary font-bold">HIS</span> SERVICES
                         </h1>
                         <p className=" text-justify text-base ">
-                            As a dedicated web developer and problem solver, I offer a range of
+                            As a dedicated web developer and problem solver, He offers a range of
                             services tailored to meet your digital needs. From creating responsive
                             and visually appealing websites using modern front-end technologies to
-                            solving complex <span className="">programming challenges, I am committed
+                            solving complex <span className="">programming challenges, He is committed
                                 to delivering high-quality solutions. </span>
                         </p>
                     </div>
@@ -54,7 +54,7 @@ const Services = () => {
                                     </h1>
                                     <p className="text-center text-base py-2">
                                         Web app development involves creating interactive apps for browsers
-                                        using HTML, CSS, JS for the front end, and back-end tech like
+                                        using React.js for the front end, and back-end tech like
                                         Node.js. It's key for modern businesses.
                                     </p>
                                 </div>
@@ -67,9 +67,9 @@ const Services = () => {
                             <h3 className="text-primary text-lg text-bold ">Frontend Development</h3>
                             <div className=" grid grid-cols-1 md:grid-cols-2 ">
                                 <div className="pt-2 pl-4 text-justify text-base">
-                                    <h2>✓ I develop the user interface.</h2>
+                                    <h2>✓ He develops the user interface.</h2>
                                     <h2>✓ Web page development.</h2>
-                                    <h2>✓ Understanding of HTML, CSS, and JavaScript.</h2>
+                                    <h2>✓ Understanding of React.js with HTML, CSS, JavaScript.</h2>
                                     <h2>✓ Experience with JavaScript frameworks React.</h2>
                                     <h2>✓ Familiarity with browser developer tools.</h2>
                                     <h2>✓ Understanding of responsive design principles.</h2>

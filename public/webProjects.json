@@ -22,6 +22,30 @@
       }
     ]
   },
+   
+  {
+    "title": "MI-Tube",
+    "subtitle": "online video-sharing platform",
+    "img": "https://i.ibb.co.com/DDVqhz6m/mi-Tube.jpg",
+    "stack": [
+      "HTML+TailwindCSS [48.7%]",
+      "JavaScript [61.93]"
+      
+    ],
+    "links": [
+      {
+        "label": "ClientSide",
+        "icon": "fa-code",
+        "url": "https://github.com/indrojitmondal/MI-Tube"
+      },
+      {
+        "label": "LiveSite",
+        "icon": "fa-globe",
+        "url": "https://indrojitmondal.github.io/MI-Tube/"
+      }
+    ]
+  },
+
     {
       "title": "SUN@JIT(Responsive Website)",
       "subtitle": "Game Review Application",

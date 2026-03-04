@@ -82,7 +82,7 @@ const Projects = () => {
                 <div className="w-11/12 md:w-10/12 mx-auto grid md:grid-cols-2 pt-5 md:px-14">
                     <h1></h1>
                     <h1 className="text-lg font-medium text-primary text-center">
-                        <span>MY</span> PROJECTS
+                        <span>EXISTING</span> PROJECTS
                     </h1>
                 </div>
             </section>
