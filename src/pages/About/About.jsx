@@ -295,7 +295,7 @@ const About = () => {
                         <p className=" text-justify  text-base">
                             {' '}
                             {/* <span>Welcome to Indrojit,</span> <br /> */}
-                             This <span className="text-primary"> is Indrojit Mondal</span>, a passionate software engineer dedicated to building innovative software. He received his Bachelor's degree in{' '}
+                             This <span className="text-primary"> is Indrojit Mondal</span>, a passionate software engineer dedicated to building innovative software. His SSC's institution is Lakshmikhola Collegiate School(LCS), Paikgacha, Khulna and HSC's institution is Paikgacha Govt College, Khulna. He received his Bachelor's degree in{' '}
                            
                             <span className="text-primary">Computer Science and Engineering(CSE) </span> from the{' '}
                             <a target="_blank" href="https://bu.ac.bd/" className="text-primary hover:underline " rel="noopener noreferrer">
