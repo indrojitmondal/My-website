@@ -301,7 +301,7 @@ const About = () => {
                             <a target="_blank" href="https://bu.ac.bd/" className="text-primary hover:underline " rel="noopener noreferrer">
                                 University of Barishal.
                             </a>
-                            &nbsp;Now he is taking BD Govt Job preparation to develop a secured working place. Besides this he is working on Upwork. 
+                            &nbsp;
                             With 6 month of experience in ReactJS and NodeJS, alongside solving 400+ problems and 7 years experience of solving basic problems related to mathematics, algorithms, and data structures, He bring a strong technical foundation and a creative mindset to the table. His experience in software development has equipped me to tackle real-world challenges effectively.
                            
                             {/* flex flex-col md:flex-row gap-4 */}
