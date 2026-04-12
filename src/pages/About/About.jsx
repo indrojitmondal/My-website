@@ -135,6 +135,15 @@ const About = () => {
                                         <i className="fa-brands fa-youtube text-3xl hover:text-primary"></i>
                                     </a>
 
+
+                                    <a
+                                        href="https://www.facebook.com/iamIndrojitMandol010"
+                                        title="Facebook"
+                                        className="block"
+                                    >
+                                        <i className="fa-brands fa-facebook text-3xl hover:text-primary"></i>
+                                    </a>
+
                                    
 
                                     <a

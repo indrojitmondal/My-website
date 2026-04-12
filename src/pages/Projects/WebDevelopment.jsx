@@ -38,7 +38,7 @@ const WebDevelopment = () => {
                                     <h2 className="card-title mx-auto">{project.title}</h2>
                                     <p className="mx-auto text-lg">{project.subtitle}</p>
 
-                                    <div>
+                                     <div>
                                         <ul className="flex flex-wrap gap-4 text-black">
                                             {project.stack.map((tech, index) => (
                                                 <li key={index}>{tech}</li>
