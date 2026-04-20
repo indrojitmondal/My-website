@@ -311,7 +311,7 @@ const About = () => {
                                 University of Barishal.
                             </a>
                             &nbsp; 
-                            Now he is taking  BD Govt Job preposition. His mission is NTRCA Lecturer position right now. 
+                            Now he is taking  BD Govt Job preposition. His mission is NTRCA ICT Lecturer position right now. 
                             With 6 month of experience in ReactJS and NodeJS, alongside solving 400+ problems and 7 years experience of solving basic problems related to mathematics, algorithms, and data structures, He bring a strong technical foundation and a creative mindset to the table. His experience in software development has equipped me to tackle real-world challenges effectively.
                            
                             {/* flex flex-col md:flex-row gap-4 */}
