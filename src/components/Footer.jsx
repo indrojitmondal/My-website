@@ -7,8 +7,8 @@ const Footer = () => {
 
                 <aside>
                     <p className="font-light text-white text-base">© {new Date().getFullYear()} <a
-                            href="https://indrojitmondal.github.io/Portfolio/"
-                            target="_blank">Indrojit Mondal</a>. All Rights Reserved.</p>
+                            href="https://indrojit.vercel.app/"
+                            >Indrojit Mondal</a>. All Rights Reserved.</p>
 
                 </aside>
             </footer>
