@@ -323,7 +323,7 @@ const About = () => {
                         </p>
 
                         <h2 className="pb-2 text-justify  text-base">
-                            His areas of expertise include <span className="text-primary">ReactJS, NodeJS, and MongoDB</span>. In free time, He enjoy solving problems on LeetCode and Codeforces to enhance his skills.
+                            His areas of expertise include <span className="text-primary">ReactJS, NodeJS, and MongoDB</span>. In free time, He enjoys solving problems on LeetCode and Codeforces to enhance his skills.
                         </h2>
 
                         <div className="flex gap-2 md:gap-5 pt-3">
