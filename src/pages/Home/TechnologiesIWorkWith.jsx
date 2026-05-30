@@ -15,6 +15,8 @@ const TechnologiesIWorkWith = () => {
                     Technologies He Works With
                 </h1>
 
+           
+
                 <div className="mt-6 grid hover:rotate-1 grid-cols-2 border p-4 border-gray-300 rounded-xl lg:grid-cols-4 items-center gap-5">
                     <img src={reactIcon} className="h-28" alt="reactJs" />
                     <img src={nodeIcon} className="h-20" alt="nodeJs" />
