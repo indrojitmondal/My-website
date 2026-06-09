@@ -304,14 +304,14 @@ const About = () => {
                         <p className=" text-justify  text-base">
                             {' '}
                             {/* <span>Welcome to Indrojit,</span> <br /> */}
-                             This <span className="text-primary"> is Indrojit Mondal</span>, a passionate software engineer dedicated to building innovative software. His SSC's institution is Lakshmikhola Collegiate School(LCS), Paikgacha, Khulna and HSC's institution is Paikgacha Govt College, Khulna. He received his Bachelor's degree in{' '}
+                             This <span className="text-primary"> is Indrojit Mondal</span>, a passionate <span className="text-primary">software engineer</span>  dedicated to building innovative software. His SSC's institution is Lakshmikhola Collegiate School(LCS), Paikgacha, Khulna and HSC's institution is Paikgacha Govt College, Khulna. He received his Bachelor's degree in{' '}
                            
                             <span className="text-primary">Computer Science and Engineering(CSE) </span> from the{' '}
                             <a target="_blank" href="https://bu.ac.bd/" className="text-primary hover:underline " rel="noopener noreferrer">
                                 University of Barishal.
                             </a>
                             &nbsp; 
-                            
+                            Now he is taking BD Govt Job preparation. Right Now his mission is <span className='text-primary'> NTRCA ICT Lecturer position.</span>
                             With 6 month of experience in ReactJS and NodeJS, alongside solving 400+ problems and 7 years experience of solving basic problems related to mathematics, algorithms, and data structures, He brings a strong technical foundation and a creative mindset to the table. His experience in software development has equipped me to tackle real-world challenges effectively.
                            
                             {/* flex flex-col md:flex-row gap-4 */}
