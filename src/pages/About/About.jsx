@@ -137,7 +137,7 @@ const About = () => {
 
 
                                     <a
-                                        href="https://www.facebook.com/iamIndrojitMandol010"
+                                        href="https://www.facebook.com/indrojitmondal010"
                                         title="Facebook"
                                         className="block"
                                     >
